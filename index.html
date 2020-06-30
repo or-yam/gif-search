@@ -3,15 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>giphyAPI</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>giphy-API</title>
   </head>
   <body>
-    <h1>Gif Search</h1>
-    <input id="search-input" type="text" />
-    <button id="search-btn">Search</button>
-    <button id="favorites">Favorites</button>
+    <h1>gif Search</h1>
+    
+    <nav id="navbar">
+      <input id="search-input" type="text" />
+      <button id="search-btn">Search</button>
+      <button id="favorites">Favorites</button>
+    </nav>
+    
+    <div id="favorites-header"></div>
     <div id="results"></div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
